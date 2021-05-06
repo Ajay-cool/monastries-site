@@ -1,0 +1,248 @@
+body {
+  background: linear-gradient(-220deg, #4fdbe3, #21c4cd);
+  justify-content: space-between;
+}
+
+span::selection {
+  background: #0f858a;
+  color: #ffffff;
+}
+
+p::selection {
+  background: #0f858a;
+  color: #ffffff;
+}
+
+h1::selection {
+  background: #0f858a;
+  color: #ffffff;
+}
+
+h2::selection {
+  background: #0f858a;
+  color: #ffffff;
+}
+
+h3::selection {
+  background: #0f858a;
+  color: #ffffff;
+}
+
+h4::selection {
+  background: #0f858a;
+  color: #ffffff;
+}
+
+strong::selection {
+  background: #0f858a;
+  color: #ffffff;
+}
+
+img::selection {
+  background: #0f858a;
+  color: #ffffff;
+}
+
+.about {
+  font-family: 'Fredoka One', cursive;
+}
+
+.move:hover {
+  text-decoration: none;
+}
+
+/* My-Name Text-Design */
+.My-Name {
+  font-family: 'Monoton', cursive;
+  font-weight: 200;
+  font-size: 1.5rem;
+}
+
+.small-align {
+  padding-left: 7%;
+}
+
+/* My-Name Text-Design Over*/
+.heading {
+  text-align: center;
+  padding-top: 5%;
+  text-decoration: underline;
+  font-weight: 400;
+  font-family: 'Fugaz One', cursive;
+  color: Black;
+}
+
+/* 3 Words */
+.F-line {
+  font-size: 22px;
+}
+
+/* 3 Words over*/
+/* first paragraph */
+.F-para {
+  font-family: 'Fredoka One', cursive;
+  font-size: 20px;
+  word-spacing: normal;
+  position: relative;
+}
+
+/* first paragraph over*/
+/* Div-one */
+.p-one {
+  position: relative;
+  padding: 7% 15%;
+  padding-bottom: 2%;
+}
+
+/* Div-one over*/
+/* buddha image sizeing */
+.buddha-size {
+  float: right;
+  height: 350px;
+  width: 500px;
+  margin-left: 50px;
+}
+
+/* buddha image sizeing over*/
+/* paragrapr 2 */
+.p-two {
+  font-family: 'Fredoka One', cursive;
+  font-size: 20px;
+  word-spacing: normal;
+  position: relative;
+}
+
+/* paragrapr 2 Over*/
+/* div-2 */
+.div-two {
+  position: relative;
+  padding-top: 2.5%;
+  padding-left: 13%;
+  padding-right: 13%;
+}
+
+/* div-2 Over*/
+#Introduction {
+  /* background-color: #8395a7; */
+  padding-bottom: 3%;
+}
+
+#cards {
+  padding: 7%;
+  text-align: center;
+}
+
+.b-card {
+  text-align: center;
+}
+
+/* .move{
+  text-decoration: none;
+} */
+.B-P {
+  font-family: 'Fredoka One', cursive;
+}
+
+.Book-Icon {
+  position: relative;
+  top: 4px;
+}
+
+.lamayuru {
+  padding: 40px;
+  float: right;
+}
+
+.Lama {
+  text-align: center;
+  padding-top: 83px;
+}
+
+.intro-lamayuru, .intro-diskit, .stok-info {
+  padding-top: 5%;
+  padding-left: 7%;
+  font-size: 21px;
+  font-family: 'Fredoka One', cursive;
+}
+
+.lamayuru-p-two, .lamayuru-p-three, .diskit-p-two, .diskit-p-three, .stok-p-two, .stok-p-three {
+  padding: 7%;
+  font-size: 21px;
+  font-family: 'Fredoka One', cursive;
+  padding-bottom: 0;
+  justify-content: space-between;
+}
+
+.lamayuru-p-three, .diskit-p-three, .stok-p-three {
+  padding-top: 1%;
+}
+
+.diskit {
+  padding: 60px;
+  float: right;
+}
+
+.dis {
+  text-align: center;
+  padding-top: 83px;
+}
+
+.location {
+  color: red;
+  font-size: 2rem;
+  position: relative;
+  top: 7px;
+}
+
+.attraction {
+  font-size: 2rem;
+  position: relative;
+  top: 7px;
+}
+
+.Stok {
+  padding: 60px;
+  float: right;
+}
+
+.stok {
+  text-align: center;
+  padding-top: 83px;
+}
+
+.coppy-rights {
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 3%;
+  font-family: 'Black Ops One', cursive;
+}
+
+@media (max-width:1000px) {
+  .lamayuru, .diskit, .Stok {
+    float: none;
+    text-align: center;
+    width: 95%;
+    padding: 20px 5px;
+  }
+
+  .small-pad {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .buddha-size {
+    width: 97%;
+    padding-bottom: 20px;
+  }
+
+  .small-align {
+    text-align: center;
+  }
+}
+
+.School {
+  text-align: center;
+  color:#ff4c68;
+  font-family: 'Baloo Tammudu 2', cursive;
+  padding-top: 50px;
+}
